@@ -1,66 +1,42 @@
 body {
-  background: #474a48;
+  background: white;
   font-family: "Nunito", sans-serif;
 }
 
-.blurb h2 {
-  color: #ea1c2c;
-  font-weight: 100;
-  font-size: 2.5rem;
-}
-
-.blurb p {
-  color: #f498b8;
-  font-weight: 100;
-  font-size: 1.125rem;
-  line-height: 2;
-}
-
-.content {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
 #mainNavbar {
-  font-size: 1.5rem;
-  font-weight: 100;
-}
-
-#mainNavbar .nav-link {
-  color: white;
-}
-
-#mainNavbar .nav-link:hover {
-  color: #ea1c2c;
+  font-size: 1rem;
 }
 
 #mainNavbar .navbar-brand {
-  color: #ea1c2c;
   font-size: 1.5rem;
 }
 
-#headingGroup span {
-  color: #ea1c2c;
+/* #mainNavbar .navbar {
+  margin-bottom: 0px;
+} */
+
+#fz {
+  font-size: 1.2rem;
+  font-weight: 300;
 }
 
-#headingGroup h1 {
-  font-weight: 100;
-  font-size: 4rem;
+.jumbotron {
+  background-image: url("https://images.unsplash.com/photo-1531256379416-9f000e90aacc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80");
+  background-size: cover;
+  min-height: 100vh;
+  align-items: center;
+  text-align: center;
+  display: flex;
 }
 
-.navbar.scrolled {
-  background: rgb(71, 74, 72);
-  transition: background 500ms;
+#gambar1 {
+  margin-bottom: 32px;
 }
 
-@media (max-width: 1200px) {
-  #headingGroup h1 {
-    font-weight: 100;
-    font-size: 3rem;
-  }
-  .blurb h2 {
-    font-size: 2rem;
-  }
+#mentor {
+  margin-bottom: 32px;
+  align-items: center;
+  text-align: center;
 }
 
 .float {
@@ -80,4 +56,8 @@ body {
 
 .my-float {
   margin-top: 16px;
+}
+
+.footer {
+  background: #212121;
 }
